@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@mipmap/home"
+            >
+        </item>
+
+    </group>
+    <item
+        android:title="Communication..."
+        />
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_about"
+            android:title="About Us"
+            android:icon="@mipmap/aboutuss"
+            >
+        </item>
+
+
+        <item android:id="@+id/nav_cc"
+            android:title="Custmor Care"
+            android:icon="@mipmap/service"
+            >
+        </item>
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@mipmap/share"
+            >
+        </item>
+
+
+        <item android:id="@+id/nav_rating"
+            android:title="Rate Us ⭐"
+            android:icon="@mipmap/rating"
+            >
+        </item>
+    </group>
+
+
+
+
+
+</menu>

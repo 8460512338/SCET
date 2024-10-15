@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="16dp"
+    app:cardBackgroundColor="@color/white"
+    app:contentPadding="16dp"
+    app:cardElevation="8dp"
+    android:id="@+id/mainpinfo"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".pinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pinf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Info"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/fnm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/usr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/mbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/thanks"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            app:lottie_rawRes="@raw/thanks"
+            android:layout_gravity="center"
+            app:lottie_loop="false"
+            app:lottie_autoPlay="true"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

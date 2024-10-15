@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "625257612821",
+    "firebase_url": "https://ty-box-default-rtdb.firebaseio.com",
+    "project_id": "ty-box",
+    "storage_bucket": "ty-box.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625257612821:android:a321fea5813d6a091db01c",
+        "android_client_info": {
+          "package_name": "com.example.box"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-sOKaJ5CKXHvUOxW4p4r_3ruOfgNrLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625257612821:android:528b4f05b9b0e2991db01c",
+        "android_client_info": {
+          "package_name": "com.example.scet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-sOKaJ5CKXHvUOxW4p4r_3ruOfgNrLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

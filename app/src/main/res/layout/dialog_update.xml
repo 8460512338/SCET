@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:title="Update Page"
+                android:titleTextColor="@color/white"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Box Name:"/>
+            <EditText
+                android:id="@+id/uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:layout_marginHorizontal="10dp"
+                android:textColorHint="@color/black"
+                android:hint="Enter Box Name"
+                android:background="@drawable/style_edittext"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Box pic:"/>
+            <EditText
+                android:id="@+id/upic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:layout_marginHorizontal="10dp"
+                android:textColorHint="@color/black"
+                android:hint="Enter the Picture Url"
+                android:background="@drawable/style_edittext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Box Location:"/>
+
+
+            <EditText
+                android:id="@+id/uloc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:singleLine="true"
+                android:background="@drawable/style_edittext"
+
+                android:hint="Enter Box location"
+                android:padding="10dp"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Box Capacity:" />
+            <EditText
+                android:id="@+id/ucapacity"
+                android:layout_marginHorizontal="10dp"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:hint="Enter Box capacity"
+                android:background="@drawable/style_edittext"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Box Price" />
+            <EditText
+                android:id="@+id/uprice"
+                android:layout_marginHorizontal="10dp"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:hint="Enter the Box Price"
+                android:background="@drawable/style_edittext"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="enter the rating :" />
+            <EditText
+                android:id="@+id/uscore"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black"
+                android:hint="Enter Rating "
+                android:background="@drawable/style_edittext"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Box time"/>
+            <EditText
+                android:id="@+id/utime"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black"
+                android:hint="Enter Available time"
+                android:background="@drawable/style_edittext"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Duration:"/>
+            <EditText
+                android:id="@+id/uhour"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black"
+                android:hint="Enter Duration of hour"
+                android:background="@drawable/style_edittext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Date of Match:"/>
+            <EditText
+                android:id="@+id/udate"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black"
+                android:hint="Enter Date of Match"
+                android:background="@drawable/style_edittext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anta"
+                android:text="Descption:"/>
+            <EditText
+                android:id="@+id/etdesc"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="@color/black"
+                android:hint="Enter Desctiprion"
+                android:background="@drawable/style_edittext"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/btnupdate"
+                android:backgroundTint="@color/black"
+                android:text="Update Box"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
